@@ -1,0 +1,31 @@
+.funkcjonalnosci {
+    background-color: #FEFEFE;
+    margin: auto;
+    /*text-align: center;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.f1 {
+    display: inline-block;
+    width: 395px;
+    /*czemu jak dam 400 px to tekst ostatni sie przesunie*/
+    text-align: center;
+    /*border: solid 1px;*/
+}
+
+.f1 h1 {
+    font-family: "Alfa Slab One",serif;
+    color: black;
+    font-size: 15px;
+}
+
+.f1 .tresc {
+    /*display: inline-block;*/
+    /*text-align: center;*/
+    /*font-family: "Alfa Slab One", serif;*/
+    font-size: 14px;
+    color: black;
+    font-family: "Times New Roman"sans-serif;
+    /*font-style: italic;*/
+}
