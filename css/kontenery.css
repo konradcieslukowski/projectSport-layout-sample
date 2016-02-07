@@ -1,0 +1,60 @@
+/** {*/
+/*margin: 0;*/
+/*padding: 0;*/
+/*}*/
+
+.kontenery{
+    /*width: 1200px;*/
+    height: auto;
+    /*border: dashed;*/
+    margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.pudelko {
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    border:0;
+    float: left;
+    position: relative;
+    overflow: hidden;
+
+
+    filter: dhaskjdh;
+    -webkit-filter : hsfhsdkf;
+    -webkit-fil
+
+}
+
+
+
+
+
+.pudelko:nth-child(2n) {
+    background-color: rgba(188, 188, 188, 0.7);
+}
+
+
+.teskt_opisu {
+    background-color: #ff5555;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -100px;
+    height: 150px;
+    transition: bottom 1s;
+
+}
+
+.pudelko:hover .teskt_opisu {
+    bottom: 100px;
+}
+

@@ -1,5 +1,5 @@
 .funkcjonalnosci {
-    background-color: #FEFEFE;
+    background-color: white;
     margin: auto;
     /*text-align: center;*/
     padding-top: 10px;
@@ -12,6 +12,10 @@
     /*czemu jak dam 400 px to tekst ostatni sie przesunie*/
     text-align: center;
     /*border: solid 1px;*/
+}
+
+.f1 .tresc:hover {
+   color: #71553A;
 }
 
 .f1 h1 {
@@ -28,4 +32,41 @@
     color: black;
     font-family: "Times New Roman"sans-serif;
     /*font-style: italic;*/
+}
+
+.zajawka {
+    background-color: #0c7e0c;
+    margin: auto;
+    height: 100px;
+    /*background-image: url('../images/field.jpg');*/
+    background-position: -39px;
+    background-size: cover;
+    background repeat: no-repeat;
+    color: black;
+    text-align: center;
+}
+.zajawka h1 {
+    font-family: 'Alfa Slab One', serif;
+    text-shadow: 0px 0px 1px white,390px 35px 2px white,
+    -274px 44px 2px white, -400px -9px 2px white;
+    font-weight: 802;
+    font-size: 25px;
+    padding-top: 20px   ;
+
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.zajawka h2 {
+    font-size: 20px;
+    text-shadow: 0px 0px 1px black;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.galeria {
+    background-color:white;
+    height:300px;
+    margin: auto;
 }
