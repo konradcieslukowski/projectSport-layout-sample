@@ -155,7 +155,7 @@ main h1 {
 .liczba_zapisanych1 {
     background-color: #54b009;
     padding-top: 1px;
-    padding-bottom: 2px;
+    padding-bottom: 1px;
     /*margin-left: 5px;*/
     /*margin-right: 5px;*/
     text-align: center;
@@ -164,7 +164,7 @@ main h1 {
 .liczba_zapisanych2 {
     background-color: orange;
     padding-top: 1px;
-    padding-bottom: 2px;
+    padding-bottom: 1px;
     /*margin-left: 5px;*/
     /*margin-right: 5px;*/
     text-align: center;
@@ -186,7 +186,6 @@ main h1 {
     border: none;
     /*border-radius: 10% 10% 0%0%;*/
     /*box-shadow: 0px 0px 1px 1px black;*/
-    cursor:pointer;
     /*z-index: 99;*/
 }
 
@@ -197,12 +196,56 @@ main h1 {
     padding-bottom: 5px;
     background-color: #ed1c1c;
     /*border-radius: 50% 50% 0% 0%;*/
-    border:solid black;
+    border-bottom:solid black;
     /*font-size:15px;*/
-    color: white;
-    opacity:0.7;
+    color: black;
+    opacity:0.8;
 }
 
+.infobox .wiadomosc {
+    color:black;
+    opacity:0.7;
+    border-bottom: solid black;
+    border-width: 1px;
+    padding: 12px;
+
+    margin-left: 30px;
+    cursor:pointer;
+    font-weight: 900;
+    /*position: relative;*/
+}
+
+.mycz {
+    background-image: url('../images/mycz.jpg');
+    background-size: contain;
+    height: 38px;
+    width: 38px;
+    position: absolute;
+    background-repeat: no-repeat;
+    border-bottom: solid black;
+    border-width: thin;
+}
+
+.infobox .wiadomosc:hover {
+    opacity: 1.0;
+    background-color: rgba(255,255,255,0.4);
+
+}
+
+.infobox .artykul {
+    color:black;
+    opacity:0.7;
+    border-bottom: solid black;
+    border-width: 1px;
+    padding: 5px;
+    cursor:pointer;
+}
+
+.infobox .artykul:hover {
+    opacity: 1.0;
+    background-color: rgba(255,255,255,0.4);
+
+}
 .szczegoly h2 {
     font-family: 'Montserrrat', sans-serif;
     color:black;
