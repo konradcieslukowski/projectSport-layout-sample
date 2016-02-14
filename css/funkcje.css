@@ -1,30 +1,40 @@
-.funkcjonalnosci {
-    background-color: white;
+.funkcjonalnosci_tlo {
+    background-color: rgba(255,255,255,0.1);
     margin: auto;
     /*text-align: center;*/
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    /*opacity:0.8;*/
 }
 
-.f1 {
+.funkcjonalnosci_uklad {
     display: inline-block;
     width: 395px;
     /*czemu jak dam 400 px to tekst ostatni sie przesunie*/
     text-align: center;
     /*border: solid 1px;*/
-}
-
-.f1 .tresc:hover {
-   color: #71553A;
-}
-
-.f1 h1 {
-    font-family: "Alfa Slab One",serif;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center 25px;
+    padding-top: 85px;
     color: black;
+    transition: all 0.3s linear;
+}
+
+.funkcjonalnosci_uklad:hover {
+   /*color: #71553A;*/
+    background-size: 57px 57px;
+    transition: all 0.3s linear;
+    background-position: center 20px;
+}
+
+.funkcjonalnosci_uklad h1 {
+    font-family: "Alfa Slab One",serif;
+    /*color: black;*/
     font-size: 15px;
 }
 
-.f1 .tresc {
+.funkcjonalnosci_uklad .funkcjonalnosci_tresc {
     /*display: inline-block;*/
     /*text-align: center;*/
     /*font-family: "Alfa Slab One", serif;*/
@@ -34,39 +44,62 @@
     /*font-style: italic;*/
 }
 
+.img1 {
+    background-image: url('../images/notes.png');
+}
+.img2 {
+    background-image: url('../images/czat.png');
+}
+.img3 {
+    background-image: url('../images/ludzie.png');
+}
+
 .zajawka {
-    background-color: #0c7e0c;
+    /*background-color: white;*/
+    background-color: rgba(255,255,255,0.1);
     margin: auto;
-    height: 100px;
+    /*height: 100px;*/
     /*background-image: url('../images/field.jpg');*/
-    background-position: -39px;
+    /*background-position: -39px;*/
     background-size: cover;
     background repeat: no-repeat;
     color: black;
     text-align: center;
+    /*opacity:0.5;*/
 }
 .zajawka h1 {
     font-family: 'Alfa Slab One', serif;
-    text-shadow: 0px 0px 1px white,390px 35px 2px white,
-    -274px 44px 2px white, -400px -9px 2px white;
+    text-shadow: 0px 0px 1px gray,395px 32px 2px gray,
+    -274px 44px 2px white, -400px -9px 2px lightgray;
     font-weight: 802;
     font-size: 25px;
     padding-top: 20px   ;
-
+    padding-bottom: 10px;
     text-transform: uppercase;
     opacity: 1;
 }
 
+/*.zajawka h2:hover {*/
+    /*font-size:30px;*/
+    /*transition: 0.2s linear;*/
+/*}*/
 .zajawka h2 {
-    font-size: 20px;
+    font-size: 22px;
+    font-family: 'Montserrrat', sans-serif;
     text-shadow: 0px 0px 1px black;
-    color: black;
-    font-weight: bold;
-    text-transform: uppercase;
+    color: black
+    font-weight: 900;
+    margin-top: 30px;
+    /*text-transform: uppercase;*/
+    /*transition: 0.2s linear;*/
+}
+.zajawka span {
+    color: red;
 }
 
 .galeria {
     background-color:white;
     height:300px;
     margin: auto;
+    /*opacity: 0.9;*/
 }
