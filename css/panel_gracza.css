@@ -10,7 +10,7 @@ main {
 
 .panel_wyboru{
     height: 515px;
-    width: 210px;
+    width: 190px;
     background-color: rgba(0, 0,0,0.7);
     /*opacity: 0.1;*/
     float: left;
@@ -20,8 +20,8 @@ main {
 .koszulka {
     background-image: url('../images/koszulka2.png');
     filter:brightness(7.0) grayscale(100%);
-    height: 250px;
-    width: 210px;
+    height: 230px;
+    width: 190px;
     /*background-position: center;*/
     background-size: contain;
     /*margin-left: 0px;*/
@@ -41,10 +41,52 @@ main {
     font-size:15px;
     position:absolute;
     top: 90px;
-    left: 60px;
-    width:86px;
+    left: 54px;
+    width:77px;
     border-radius: 45% 45% 0% 0%;
     padding-top: 4px;
+}
+
+.filtry {
+
+}
+
+.filtr1 {
+    border-top:solid white;
+    border-width: 1px;
+    padding: 5px;
+    padding-left: 18px;
+    font-family: 'Montserrrat', sans-serif;
+    font-weight: 900;
+    /*background-color: ;*/
+    font-size: 14px;
+    color:white;
+}
+
+.filtr1:hover {
+    color:#ed1c1c;
+    cursor:pointer;
+    background-color: black;
+}
+
+.filtr2 {
+    border-top:solid white;
+    border-bottom: solid white;
+    border-width: 1px;
+    padding: 5px;
+    padding-left: 18px;
+    font-family: 'Montserrrat', sans-serif;
+    font-weight: 900;
+    /*background-color: black;*/
+    font-size: 14px;
+    color:white;
+
+}
+
+.filtr2:hover {
+    color:#ed1c1c;
+    cursor:pointer;
+    background-color: black;
 }
 
 .lista_spotkan {
@@ -62,13 +104,14 @@ main {
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: white;
+    /*background-color: white;*/
     /*height: 100px;*/
     width: 400px;
     font-family: sans-serif;
     font-weight: 600;
-    font-size: 14px;
-    border-bottom: solid black;
+    font-size: 13px;
+    border: solid black;
+    border-width: 1px;
     border-radius: 0%;
     /*box-shadow: 0px 0px 3px 5px black;*/
     cursor:pointer;
@@ -77,11 +120,14 @@ main {
 }
 .okno_spotkania:hover {
     /*background-color: lightgrey;*/
-    box-shadow: 0px 0px 2px 2px red;
+    box-shadow: 0px 0px 1px 1px red;
 }
 
 .ikonka {
     float: right;
+    /*padding:2px;*/
+    padding-top: 0px;
+    /*padding-bottom: 0px;*/
 }
 
 .pilka {
@@ -128,6 +174,9 @@ main {
 .clear {
     clear: both;
 }
+.okno_spotkania .szczegoly {
+    background-color: white;
+}
 
 .okno_spotkania .szczegoly div {
     padding-top: 5px;
@@ -135,10 +184,11 @@ main {
 }
 
 .godzina {
-    font-size:20px;
+    font-size:16px;
     font-weight: 900;
     text-shadow: black;
     text-align: center;
+    padding-bottom: 19px;
 }
 
 main h1 {
@@ -146,6 +196,7 @@ main h1 {
     padding-top: 5px;
     padding-bottom: 10px;
     background-color: black;
+    opacity:0.8;
     /*margin-left:28px ;*/
     /*border-radius: 21% 21% 88% 88%;*/
     z-index: 1;
@@ -156,8 +207,9 @@ main h1 {
     background-color: #54b009;
     padding-top: 1px;
     padding-bottom: 1px;
+
     /*margin-left: 5px;*/
-    /*margin-right: 5px;*/
+    margin-right: 160px;
     text-align: center;
     /*border-radius: 44% 44% 88% 88%;*/
 }
@@ -166,7 +218,7 @@ main h1 {
     padding-top: 1px;
     padding-bottom: 1px;
     /*margin-left: 5px;*/
-    /*margin-right: 5px;*/
+    margin-right: 160px;
     text-align: center;
     /*border-radius: 44% 44% 88% 88%;*/
 }
@@ -178,7 +230,7 @@ main h1 {
     background-color: rgba(255,255,255,0.4);
     /*height: 300px;*/
     width: 300px;
-    height: 400px;
+    /*height: 300px;*/
     font-family: "Times New Roman" sans-serif;
     /*font-family: 'Montserrat', sans-serif;*/
     font-size: 14px;
@@ -197,6 +249,7 @@ main h1 {
     background-color: #ed1c1c;
     /*border-radius: 50% 50% 0% 0%;*/
     border-bottom:solid black;
+    border-width: 2px;
     /*font-size:15px;*/
     color: black;
     opacity:0.8;
@@ -239,7 +292,34 @@ main h1 {
     border-width: 1px;
     padding: 5px;
     cursor:pointer;
+    position: relative;
 }
+
+.artykul .artykul_tresc {
+    position: absolute;
+    color:black;
+    /*opacity:0.7;*/
+    background-color: white;
+    left: -300px;
+    right: 300px;
+    bottom:-72px;
+    display: none;
+}
+
+.artykul:hover .artykul_tresc {
+    position: absolute;
+    color:white;
+    /*opacity:0.7;*/
+    background-color: black;
+    left: -300px;
+    right: 300px;
+    bottom:-72px;
+    padding: 3px;
+    letter-spacing: 1px;
+    display: block;
+    margin: auto;
+}
+
 
 .infobox .artykul:hover {
     opacity: 1.0;
