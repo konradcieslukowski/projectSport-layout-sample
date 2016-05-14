@@ -9,7 +9,7 @@ main {
 }
 
 .panel_wyboru{
-    height: 515px;
+    height: 444px;
     width: 190px;
     background-color: rgba(0, 0,0,0.7);
     /*opacity: 0.1;*/
@@ -77,9 +77,9 @@ main {
     padding-left: 18px;
     font-family: 'Montserrrat', sans-serif;
     font-weight: 900;
-    /*background-color: black;*/
+    background-color: black;
     font-size: 14px;
-    color:white;
+    color:#ed1c1c;
 
 }
 
@@ -277,8 +277,22 @@ main h1 {
     background-repeat: no-repeat;
     border-bottom: solid black;
     border-width: thin;
+    padding-bottom: ;
 }
 
+.mycz1 {
+    background-image: url('../images/Drawing(2).png');
+    background-size: 23px;
+    background-color: black;
+    opacity:0.8;
+    height: 38px;
+    width: 38px;
+    position: absolute;
+    background-repeat: no-repeat;
+    border-bottom: solid black;
+    border-width: thin;
+    background-position: center;
+}
 .infobox .wiadomosc:hover {
     opacity: 1.0;
     background-color: rgba(255,255,255,0.4);
@@ -293,6 +307,7 @@ main h1 {
     padding: 5px;
     cursor:pointer;
     position: relative;
+    margin-left: 34px;
 }
 
 .artykul .artykul_tresc {
