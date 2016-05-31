@@ -1,51 +1,20 @@
-
-
 footer {
-    /*display: block;*/
     font-family: 'Alfa Slab One', serif;
-
-    /*height: 50px;*/
     background-color: black;
     font-size: 16px;
     color: white;
-    /*margin: 5px;*/
     margin: auto;
-    /*padding: 3px;*/
     opacity: 0.9;
-
     text-align: center;
-
-    /*position: absolute;*/
-    /*left:0;*/
-    /*right:0;*/
-    /*bottom: 0;*/
-}
-
-span  a{
-    /*background-color: red;*/
-    /*border: solid 1px #222;*/
-   /*background-color: red;*/
 }
 
 span {
-    /*background-color: red;*/
-    /*border: solid 1px #222;*/
     padding: 5px;
     margin: 5px;
     display: inline-block;
 }
-/*.media  {*/
-    /*width: 50px;*/
-    /*height: 50px;*/
-    /*padding: 0;*/
-    /*margin: 0;*/
-    /*border:0;*/
-    /*float: left;*/
-    /*position: relative;*/
-    /*overflow: hidden;*/
-/*}*/
 
-.media  {
+.media {
     width: 40px;
     height: 40px;
     display: inline-block;
@@ -55,6 +24,7 @@ span {
     margin-right: 20px;
 
 }
+
 .clear {
     clear: both;
 }

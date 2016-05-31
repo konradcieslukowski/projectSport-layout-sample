@@ -1,6 +1,4 @@
 main {
-    /*background-color: white;*/
-    /*height: 200px;*/
     background-color: rgba(255, 255, 255, 0.0);
 }
 
@@ -22,11 +20,7 @@ main {
     filter:brightness(7.0) grayscale(100%);
     height: 230px;
     width: 190px;
-    /*background-position: center;*/
     background-size: contain;
-    /*margin-left: 0px;*/
-    /*background-position: center;*/
-    /*background-position: contain;*/
     background-repeat: no-repeat;
     position: relative;
 }
@@ -94,7 +88,7 @@ main {
     display: inline-block;
     /*position: relative;*/
     z-index: 1;
-    /*width: 500px;*/
+
 }
 .okno_spotkania {
     /*float: left;*/
@@ -113,31 +107,24 @@ main {
     border: solid black;
     border-width: 1px;
     border-radius: 0%;
-    /*box-shadow: 0px 0px 3px 5px black;*/
     cursor:pointer;
-    /*z-index: 99;*/
     letter-spacing:1px;
 }
 .okno_spotkania:hover {
-    /*background-color: lightgrey;*/
     box-shadow: 0px 0px 1px 1px red;
 }
 
 .ikonka {
     float: right;
-    /*padding:2px;*/
     padding-top: 0px;
-    /*padding-bottom: 0px;*/
 }
 
 .pilka {
     background-image: url('../images/football.png');
     background-color: white;
     position: absolute;
-    /*padding-right: 5px;*/
     height: 28px;
     width: 28px;
-    /*right: 0px;*/
     background-size: contain;
     background-repeat: no-repeat;
     z-index:2;
@@ -148,10 +135,8 @@ main {
     background-image: url('../images/basketball.png');
     background-color: white;
     position: absolute;
-    /*padding-right: 5px;*/
     height: 28px;
     width: 28px;
-    /*right: 0px;*/
     background-size: contain;
     background-repeat: no-repeat;
     z-index:2;
@@ -161,10 +146,8 @@ main {
     background-image: url('../images/volleyball.png');
     background-color: white;
     position: absolute;
-    /*padding-right: 5px;*/
     height: 28px;
     width: 28px;
-    /*right: 0px;*/
     background-size: contain;
     background-repeat: no-repeat;
     z-index:2;
@@ -207,8 +190,6 @@ main h1 {
     background-color: #54b009;
     padding-top: 1px;
     padding-bottom: 1px;
-
-    /*margin-left: 5px;*/
     margin-right: 160px;
     text-align: center;
     /*border-radius: 44% 44% 88% 88%;*/
@@ -220,7 +201,6 @@ main h1 {
     /*margin-left: 5px;*/
     margin-right: 160px;
     text-align: center;
-    /*border-radius: 44% 44% 88% 88%;*/
 }
 
 .infobox {
@@ -231,14 +211,9 @@ main h1 {
     /*height: 300px;*/
     width: 300px;
     /*height: 300px;*/
-    font-family: "Times New Roman" sans-serif;
-    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: "Times New Roman", sans-serif;
     font-size: 14px;
-    /*border: solid red;*/
     border: none;
-    /*border-radius: 10% 10% 0%0%;*/
-    /*box-shadow: 0px 0px 1px 1px black;*/
-    /*z-index: 99;*/
 }
 
 .infobox .naglowek {
